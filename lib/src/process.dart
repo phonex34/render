@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:ffmpeg_kit_flutter_https_gpl/ffmpeg_kit_config.dart';
-import 'package:ffmpeg_kit_flutter_https_gpl/ffmpeg_session.dart';
-import 'package:ffmpeg_kit_flutter_https_gpl/log.dart';
-import 'package:ffmpeg_kit_flutter_https_gpl/statistics.dart';
+import 'package:ffmpeg_kit_flutter_video/ffmpeg_kit_config.dart';
+import 'package:ffmpeg_kit_flutter_video/ffmpeg_session.dart';
+import 'package:ffmpeg_kit_flutter_video/log.dart';
+import 'package:ffmpeg_kit_flutter_video/statistics.dart';
 import 'package:render/src/formats/abstract.dart';
 import 'package:render/src/service/notifier.dart';
 import 'package:render/src/service/session.dart';
@@ -27,8 +27,7 @@ abstract class RenderProcessor<T extends RenderFormat> {
     }
     _processing = true;
     try {
-      final output =
-          await _processTask(session.format.processShare);
+      final output = await _processTask(session.format.processShare);
       session.recordResult(output);
       _processing = false;
     } on RenderException catch (error) {

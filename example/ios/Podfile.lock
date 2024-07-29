@@ -1,0 +1,52 @@
+PODS:
+  - ffmpeg-kit-ios-video (6.0)
+  - ffmpeg_kit_flutter_video (6.0.3):
+    - ffmpeg_kit_flutter_video/video (= 6.0.3)
+    - Flutter
+  - ffmpeg_kit_flutter_video/video (6.0.3):
+    - ffmpeg-kit-ios-video (= 6.0)
+    - Flutter
+  - Flutter (1.0.0)
+  - gallery_saver (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - ffmpeg_kit_flutter_video (from `.symlinks/plugins/ffmpeg_kit_flutter_video/ios`)
+  - Flutter (from `Flutter`)
+  - gallery_saver (from `.symlinks/plugins/gallery_saver/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-video
+
+EXTERNAL SOURCES:
+  ffmpeg_kit_flutter_video:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter_video/ios"
+  Flutter:
+    :path: Flutter
+  gallery_saver:
+    :path: ".symlinks/plugins/gallery_saver/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-ios-video: d3a8a535570063b717f88da68f9089e213aa21ba
+  ffmpeg_kit_flutter_video: a3b221c1909b7972f73b3bf44a967454d98335b7
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  gallery_saver: 9fc173c9f4fcc48af53b2a9ebea1b643255be542
+  path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
+  video_player_avfoundation: e9e6f9cae7d7a6d9b43519b0aab382bca60fcfd1
+
+PODFILE CHECKSUM: 075ddf6b19cdcced44581bd8fbdfb58404a78f8a
+
+COCOAPODS: 1.15.2
